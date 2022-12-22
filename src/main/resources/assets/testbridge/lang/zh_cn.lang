@@ -1,0 +1,88 @@
+# Pipes
+
+item.logisticspipes.pipe_result.name=Result Pipe
+item.logisticspipes.pipe_result.tip1=Type: Item Source
+item.logisticspipes.pipe_result.tip2= - Attaches to an inventory
+item.logisticspipes.pipe_result.tip3= - Sends 16 items into the network to fulfill crafting requests.
+item.logisticspipes.pipe_result.tip4= - Used with a $YELLOWCrafting Manager$RESET.
+item.logisticspipes.pipe_result.tip5=Added by $BLUETest Bridge
+
+item.logisticspipes.pipe_crafting_manager.name=Crafting Manager Pipe
+item.logisticspipes.pipe_crafting_manager.tip1=Type: Auto Crafting
+item.logisticspipes.pipe_crafting_manager.tip2= - Will act like Chassis if connected to container and satellite isn't available.
+item.logisticspipes.pipe_crafting_manager.tip3= - Can contain 27 Crafting modules with 2 Upgrade slots each.
+item.logisticspipes.pipe_crafting_manager.tip4= - Install module upgrades by dropping them on the module slot.
+item.logisticspipes.pipe_crafting_manager.tip5= - Used with a $YELLOWResult Pipe$RESET & $YELLOWSatellite Pipe$RESET.
+item.logisticspipes.pipe_crafting_manager.tip6=Added by $BLUETest Bridge
+
+
+# Upgrades
+
+item.logisticspipes.upgrade_buffer_cm.name=Buffer Upgrade
+item.logisticspipes.upgrade_buffer_cm.tip1=Uses attached chest to buffer crafting ingredients.
+item.logisticspipes.upgrade_buffer_cm.tip2=Allows buffering ingredients until the machine is ready.
+item.logisticspipes.upgrade_buffer_cm.tip3=Allows $REDRedstone$RESET Control of crafting.
+item.logisticspipes.upgrade_buffer_cm.tip4=Dark red particles indicate blocked state.
+item.logisticspipes.upgrade_buffer_cm.tip5=Added by $BLUETest Bridge
+
+# Upgrade info
+
+item.upgrade.info.crafting_manager=Crafting Manager Pipe
+
+# Item info
+
+item.testbridge.item_package.name=Package Config
+item.testbridge.item_placeholder.name=AE Craft Token
+
+tooltip.testbridge.fakeItemNull=Auto Craft token
+tooltip.testbridge.request=Requests %s from Logistics Pipes Network
+tooltip.testbridge.techItem=This item used for requesting & crafting logic. You have no use for it! Throw it away!
+tooltip.testbridge.placeholder=Package Contains %s
+tooltip.testbridge.package_content=Package Template for %s
+tooltip.testbridge.package_empty=Package Empty
+tooltip.testbridge.satName=Satellite Name: %s
+tooltip.testbridge.packageName=%s to %s
+
+# Blocks
+
+tile.appliedenergistics2.crafting_manager.name=ME Crafting Manager
+
+# Part
+
+item.appliedenergistics2.multi_part.satellite_bus.name=Satellite Bus
+item.appliedenergistics2.multi_part.craftingmanager_part.name=ME Crafting Manager
+
+# GUI
+
+gui.item_package.Save=Save
+
+gui.satellite.GuiName=Satellite Name
+gui.result.GuiName=Result Name
+
+gui.crafting_manager.Select=Select
+gui.crafting_manager.satellite=Satellite
+gui.crafting_manager.result=Result
+gui.crafting_manager.CMName=Crafting Manager
+
+gui.crafting_manager.blocking=Blocking Mode
+gui.crafting_manager.NoContainer=No Container connected
+gui.crafting_manager.blocking.off=Off
+gui.crafting_manager.blocking.empty_main_satellite=Wait for Empty Inventory
+gui.crafting_manager.blocking.redstone_high=Redstone Active High
+gui.crafting_manager.blocking.redstone_low=Redstone Active Low
+gui.crafting_manager.blocking.wait_for_result=Wait for Completion
+
+gui.popup.selectresult.title=Select Result Pipe
+
+gui.item_package.GuiName=Result Name
+
+
+# TOP
+
+top.testbridge.pipe.result.name=Result name: $AQUA%s$RESET.
+top.testbridge.pipe.result.no_name=Result name $REDnot set$RESET.
+
+top.testbridge.pipe.cmpipe.no_modules=$REDNo modules installed.
+
+# commands
+# commands.examplemod.examplecommand.usage=/example <value>
